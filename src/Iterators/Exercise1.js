@@ -1,5 +1,5 @@
 const display = () => {
-  const message = 'okkkkkkkkkkkkkk'
+  const message = 'ok'
   const messageIterator = message[Symbol.iterator]()
   messageIterator.next()
   for (const item of messageIterator) {
