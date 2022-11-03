@@ -49,12 +49,54 @@ import Itrtrs5 from './Iterators/Exercise5'
 import Itrtrs6 from './Iterators/Exercise6'
 import Prmses1 from './Promises/Exercise1'
 import Rflct1 from './ReflectAPI/Exercise1'
-// tabang
-// melt the choco
+
 class App extends Component {
   render () {
     return (
       <div className='App'>
+      <Arrow1 /><br></br>
+      <Arrow2 />
+      <Arrow3 />
+      <Functs1 />
+      <Functs2 />
+      <DfArgs1 />
+      <DfArgs3 />
+      <Dstr1 />
+      <Dstr2 />
+      <Dstr3 />
+      <Dstr4 />
+      <Dstr5 />
+      <Dstr6 />
+      <Sprd1 />
+      <Sprd2 />
+      <Sprd3 />
+      <Sprd4 />
+      <Sprd5 />
+      <Objct1 />
+      <Objct2 />
+      <Objct3 />
+      <Objct4 />
+      <Tcall1 />
+      <Tcall2 />
+      <Tcall3 />
+      <Tcall4 />
+      <Symbls2 />
+      <Floop1 />
+      <Floop2 />
+      <Strs1 />
+      <Strs2 />
+      <Strs3 />
+      <Strs4 />
+      <Stmps1 />
+      <Stmps2 />
+      <Stmps3 />
+      <Itrtrs1 />
+      <Itrtrs2 />
+      <Itrtrs3 />
+      <Itrtrs5 />
+      <Itrtrs6 />
+      <Prmses1 />
+      <Rflct1 />
       </div>
     )
   }
