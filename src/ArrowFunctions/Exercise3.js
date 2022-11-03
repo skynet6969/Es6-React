@@ -3,7 +3,6 @@ const display = () => {
     this.name = name
     this.delay = delay
   }
-
   Entity.prototype.greet = function () {
     setTimeout(() => {
       console.log('Hi, I am ' + this.name)
