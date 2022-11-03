@@ -9,7 +9,6 @@ const display = () => {
     }
     return console.log(fibCurrent)
   }
-
   fib()
 }
 export default display
