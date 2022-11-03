@@ -95,5 +95,8 @@ const display = () => {
     processCollisions()
   }
   setInterval(gameLoop, 5000)
+// influence the movement of the player by executing
+// player.faceUp()
+// player.faceDown()
 }
 display()
