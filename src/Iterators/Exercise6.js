@@ -8,14 +8,12 @@ const display = () => {
       yield b
     }
   }
-
   function * filter (iterable, filterFunction) {
     for (const element of iterable) {
       if (filterFunction(element)) yield element
     }
   }
   const evenFibonacci = filter(fibonacci(), x => x % 2 === 0)
-
   console.log(evenFibonacci.next())
   console.log(evenFibonacci.next())
   console.log(evenFibonacci.next())
