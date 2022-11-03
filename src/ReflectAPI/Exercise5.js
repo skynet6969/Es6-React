@@ -15,5 +15,4 @@
         console.log(Reflect.deleteProperty( target, key ))
         console.log(target)
     }
-
 export default display
