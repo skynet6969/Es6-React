@@ -19,5 +19,4 @@ const display = () => {
   ))
   console.log(basket)
 }
-
 export default display
