@@ -1,4 +1,4 @@
-function display () {
+const display = () => {
   const text = 'Hello World'
   return text
 }
