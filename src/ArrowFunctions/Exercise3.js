@@ -9,7 +9,7 @@ const display = () => {
       console.log('Hi, I am ' + this.name)
     }, this.delay)
   }
-  const java = new Entity('Java', 500)
+  const java = new Entity('Java', 5000)
   const cpp = new Entity('C++', 30)
   java.greet()
   cpp.greet()
