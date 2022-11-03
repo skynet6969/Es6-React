@@ -1,8 +1,6 @@
 const display = () => {
   let fibonacci = n =>
-    n <= 1
-      ? n
-      : fibonacci(n - 1) + fibonacci(n - 2)
+    n <= 1 ? n : fibonacci(n - 1) + fibonacci(n - 2)
   const originalFibonacci = fibonacci
   let fibCount = 0; let fib2Count = 0
   const memoMap = new Map()
@@ -27,5 +25,4 @@ const display = () => {
   console.log('fib2Count', fib2Count)
   fibonacci = originalFibonacci
 }
-
 export default display
