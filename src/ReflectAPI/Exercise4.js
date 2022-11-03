@@ -14,7 +14,6 @@ let display = () => {
 
     Reflect.set(person,'name','Alexander Severus',newContext);
 
-
     console.log("Reflect.set() returns a true if conditions were true")
     console.log("person.first takes the first word from Reflect.set() which were not changed") 
     console.log("person.last takes the last word from Reflect.set() which were not changed")
